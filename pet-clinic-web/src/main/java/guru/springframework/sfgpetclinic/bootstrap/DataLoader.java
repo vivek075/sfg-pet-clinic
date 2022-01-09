@@ -7,7 +7,9 @@ import guru.springframework.sfgpetclinic.services.OwnerServiceMap;
 import guru.springframework.sfgpetclinic.services.VetService;
 import guru.springframework.sfgpetclinic.services.VetServiceMap;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
 
+@Component
 public class DataLoader implements CommandLineRunner {
 
     private final OwnerService ownerService;
